@@ -13,7 +13,6 @@ body {
     padding: 20px;
 }
 
-/* Typography */
 h1 {
     color: #d35400;
     font-size: 2.5em;
@@ -30,7 +29,6 @@ h2 {
     padding-bottom: 0.3em;
 }
 
-/* Homepage */
 .center {
     text-align: center;
     margin-bottom: 2em;
@@ -47,7 +45,6 @@ p {
     margin-bottom: 1em;
 }
 
-/* Links */
 a {
     color: #d35400;
     text-decoration: none;
@@ -59,7 +56,6 @@ a:hover {
     color: #e67e22;
 }
 
-/* Lists */
 ul, ol {
     margin-left: 1.5em;
     margin-bottom: 1.5em;
@@ -69,7 +65,6 @@ li {
     margin-bottom: 0.5em;
 }
 
-/* Recipe pages */
 img {
     max-width: 100%;
     height: auto;
@@ -79,24 +74,20 @@ img {
     margin: 1em auto;
 }
 
-/* Ingredients and instructions sections */
 h1 + ul, h1 + ol {
     margin-top: 1em;
 }
 
-/* Nutrition info */
 p strong {
     color: #d35400;
 }
 
-/* Card layout for recipe content */
 body > h1, body > p, body > ul, body > ol {
     max-width: 800px;
     margin-left: auto;
     margin-right: auto;
 }
 
-/* Responsive design */
 @media (max-width: 600px) {
     body {
         padding: 10px;
