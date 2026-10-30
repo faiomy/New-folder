@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    color: #333;
+    background-color: #faf8f5;
+    padding: 20px;
+}
+
+/* Typography */
+h1 {
+    color: #d35400;
+    font-size: 2.5em;
+    margin-bottom: 0.5em;
+    text-align: center;
+}
+
+h2 {
+    color: #e67e22;
+    font-size: 1.8em;
+    margin-top: 1.5em;
+    margin-bottom: 0.5em;
+    border-bottom: 2px solid #f39c12;
+    padding-bottom: 0.3em;
+}
+
+/* Homepage */
+.center {
+    text-align: center;
+    margin-bottom: 2em;
+}
+
+hr {
+    border: none;
+    border-top: 3px solid #f39c12;
+    width: 60%;
+    margin: 1.5em auto;
+}
+
+p {
+    margin-bottom: 1em;
+}
+
+/* Links */
+a {
+    color: #d35400;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #e67e22;
+}
+
+/* Lists */
+ul, ol {
+    margin-left: 1.5em;
+    margin-bottom: 1.5em;
+}
+
+li {
+    margin-bottom: 0.5em;
+}
+
+/* Recipe pages */
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    display: block;
+    margin: 1em auto;
+}
+
+/* Ingredients and instructions sections */
+h1 + ul, h1 + ol {
+    margin-top: 1em;
+}
+
+/* Nutrition info */
+p strong {
+    color: #d35400;
+}
+
+/* Card layout for recipe content */
+body > h1, body > p, body > ul, body > ol {
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Responsive design */
+@media (max-width: 600px) {
+    body {
+        padding: 10px;
+    }
+    
+    h1 {
+        font-size: 2em;
+    }
+    
+    h2 {
+        font-size: 1.5em;
+    }
+    
+    ul, ol {
+        margin-left: 1em;
+    }
+}
